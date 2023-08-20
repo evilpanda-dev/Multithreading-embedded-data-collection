@@ -1,0 +1,3 @@
+xmgrace -npipe fifo &
+python adc.py ; kill -9 python | while read line; do echo $line; done
+

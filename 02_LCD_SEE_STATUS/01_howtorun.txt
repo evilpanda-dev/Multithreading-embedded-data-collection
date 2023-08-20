@@ -1,0 +1,17 @@
+rm /dev/ttyUSB0/1
+connect from devices usb to silicon labs cp2104 driver usb to uart
+now /dev/ttyUSB0/1 should exist
+if USB1, need to change programs
+else ok
+
+sh 02_basic.sh
+sh 03_images.sh
+./status
+../howtorun.sh
+
+
+extra new images
+0) apt-get install ffmpeg
+1) use gimp to scale/export noc.png to 320x240 png image (noc1.png)
+2) in raw format
+ffmpeg -vcodec png -i noc1.png -vcodec rawvideo -f rawvideo -pix_

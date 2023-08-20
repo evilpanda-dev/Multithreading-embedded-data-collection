@@ -1,0 +1,19 @@
+ You can display a graphic image on the ODROID-SHOW.  It supports only raw RGB-565 format.
+We used ffmpeg to convert a normal PNG file to raw RGB file. Note that you must resize the PNG file first.
+both
+    $ sudo apt-get install ffmpeg
+You can convert it with this command. If the conversion is success, you will have the penguin.raw file.
+
+    $ ffmpeg -vcodec png -i penguin.png -vcodec rawvideo -f rawvideo -pix_fmt rgb565 penguin.raw
+
+You can set the image load mode with the pixel coordination parameters.
+Check your serial port
+    $ ls /dev/ttyUSB*
+Modify the serial port “/dev/ttyUSB0” or “/dev/ttyUSBn”
+    $ cd ODROID-SHOW/example/linux
+    $ vi images.sh
+Run
+    $ sudo ./images.sh
+
+
+    $ ffmpeg -vcodec png -i penguin.png -vcodec rawvideo -f rawvideo -pix_fmt rgb565 penguin.raw

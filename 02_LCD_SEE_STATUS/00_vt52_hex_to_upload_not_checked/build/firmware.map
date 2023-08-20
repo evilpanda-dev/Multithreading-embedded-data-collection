@@ -1,0 +1,873 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+                              vt.o (__udivmodhi4)
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+                              gx.o (__divmodhi4)
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                              vt52.o (__tablejump2__)
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              vt.o (__do_copy_data)
+/home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              vt.o (__do_clear_bss)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 vt.o
+ .data          0x0000000000000000        0x0 vt.o
+ .bss           0x0000000000000000        0x0 vt.o
+ .text.scroll_up
+                0x0000000000000000        0x2 vt.o
+ .text.scroll_down
+                0x0000000000000000        0x2 vt.o
+ .text          0x0000000000000000        0x0 vt52.o
+ .data          0x0000000000000000        0x0 vt52.o
+ .bss           0x0000000000000000        0x0 vt52.o
+ .text          0x0000000000000000        0x0 vt220.o
+ .data          0x0000000000000000        0x0 vt220.o
+ .bss           0x0000000000000000        0x0 vt220.o
+ .text          0x0000000000000000        0x0 tek4014.o
+ .data          0x0000000000000000        0x0 tek4014.o
+ .bss           0x0000000000000000        0x0 tek4014.o
+ .comment       0x0000000000000000       0x12 tek4014.o
+ .text          0x0000000000000000        0x0 fnt4x6.o
+ .data          0x0000000000000000        0x0 fnt4x6.o
+ .bss           0x0000000000000000        0x0 fnt4x6.o
+ .text          0x0000000000000000        0x0 ILI9340.o
+ .data          0x0000000000000000        0x0 ILI9340.o
+ .bss           0x0000000000000000        0x0 ILI9340.o
+ .text.ILI9340_pushColor
+                0x0000000000000000       0x1a ILI9340.o
+ .text.ILI9340_drawPixel
+                0x0000000000000000       0x2c ILI9340.o
+ .text.ILI9340_drawVLine
+                0x0000000000000000       0x80 ILI9340.o
+ .text.ILI9340_drawHLine
+                0x0000000000000000       0x80 ILI9340.o
+ .text.ILI9340_color565
+                0x0000000000000000       0x1c ILI9340.o
+ .text.ILI9340_invertDisplay
+                0x0000000000000000        0xe ILI9340.o
+ .text.ILI9340_scrollingDefinition
+                0x0000000000000000       0x56 ILI9340.o
+ .text.ILI9340_scrollPosition
+                0x0000000000000000       0x2c ILI9340.o
+ .text.ILI9340_width
+                0x0000000000000000        0xa ILI9340.o
+ .text.ILI9340_height
+                0x0000000000000000        0xa ILI9340.o
+ .text.spiread  0x0000000000000000        0xc ILI9340.o
+ .text.ILI9340_readdata
+                0x0000000000000000        0xc ILI9340.o
+ .text.ILI9340_scroll_up
+                0x0000000000000000      0x130 ILI9340.o
+ .text          0x0000000000000000        0x0 gx.o
+ .data          0x0000000000000000        0x0 gx.o
+ .bss           0x0000000000000000        0x0 gx.o
+ .text.GX_drawCircleHelper
+                0x0000000000000000      0x14e gx.o
+ .text.GX_fillCircleHelper
+                0x0000000000000000      0x158 gx.o
+ .text.GX_drawCircle
+                0x0000000000000000      0x19c gx.o
+ .text.GX_fillCircle
+                0x0000000000000000       0x54 gx.o
+ .text.GX_drawLine
+                0x0000000000000000      0x11a gx.o
+ .text.GX_drawRect
+                0x0000000000000000       0x68 gx.o
+ .text.GX_drawRoundRect
+                0x0000000000000000      0x108 gx.o
+ .text.GX_fillRoundRect
+                0x0000000000000000       0x9e gx.o
+ .text.GX_drawTriangle
+                0x0000000000000000       0x6a gx.o
+ .text.GX_fillTriangle
+                0x0000000000000000      0x2c2 gx.o
+ .bss.tmpu16    0x0000000000000000        0x2 gx.o
+ .text          0x0000000000000000        0x0 usart.o
+ .data          0x0000000000000000        0x0 usart.o
+ .bss           0x0000000000000000        0x0 usart.o
+ .text.USART_available
+                0x0000000000000000        0xe usart.o
+ .text.USART_receive
+                0x0000000000000000        0xe usart.o
+ .text.USART_free
+                0x0000000000000000       0x16 usart.o
+ .text.USART_canRead
+                0x0000000000000000       0x12 usart.o
+ .text.USART_read
+                0x0000000000000000       0x30 usart.o
+ .text          0x0000000000000000        0x0 spi.o
+ .data          0x0000000000000000        0x0 spi.o
+ .bss           0x0000000000000000        0x0 spi.o
+ .text.SPI_cleanup
+                0x0000000000000000        0x8 spi.o
+ .text.SPI_transfer
+                0x0000000000000000        0xa spi.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x28 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD vt.o
+LOAD vt52.o
+LOAD vt220.o
+LOAD tek4014.o
+LOAD fnt4x6.o
+LOAD ILI9340.o
+LOAD gx.o
+LOAD usart.o
+LOAD spi.o
+LOAD main.o
+START GROUP
+LOAD /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+LOAD /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a
+LOAD /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x18e6
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.VT52_process
+                0x0000000000000068       0x34 vt52.o
+ .progmem.gcc_sw_table.VT220_process
+                0x000000000000009c       0x38 vt220.o
+                0x00000000000000d4                . = ALIGN (0x2)
+                0x00000000000000d4                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000d4        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000d4                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.colors
+                0x00000000000000d4       0x20 vt.o
+                0x00000000000000d4                colors
+ .progmem.data.dsr_keyboard_language
+                0x00000000000000f4        0x7 vt220.o
+ .progmem.data.dsr_no_printer
+                0x00000000000000fb        0x5 vt220.o
+ .progmem.data.dsr_response
+                0x0000000000000100        0x3 vt220.o
+ .progmem.data.primary_da_vt220
+                0x0000000000000103       0x11 vt220.o
+ .progmem.data.font_4x6
+                0x0000000000000114      0x300 fnt4x6.o
+ .progmem.data.init_sequence
+                0x0000000000000414       0x65 ILI9340.o
+ .progmem.data.reset
+                0x0000000000000479        0x7 main.o
+                0x0000000000000479                reset
+ .progmem.data.welcome_text
+                0x0000000000000480       0x14 main.o
+                0x0000000000000480                welcome_text
+                0x0000000000000494                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000494                __ctors_start = .
+ *(.ctors)
+                0x0000000000000494                __ctors_end = .
+                0x0000000000000494                __dtors_start = .
+ *(.dtors)
+                0x0000000000000494                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000494        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000494                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000494        0xc /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000004a0       0x16 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x00000000000004a0                __do_copy_data
+ .init4         0x00000000000004b6       0x10 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000004b6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000004c6        0x8 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000004ce        0x4 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000004ce                __vector_22
+                0x00000000000004ce                __vector_1
+                0x00000000000004ce                __vector_24
+                0x00000000000004ce                __vector_12
+                0x00000000000004ce                __bad_interrupt
+                0x00000000000004ce                __vector_6
+                0x00000000000004ce                __vector_3
+                0x00000000000004ce                __vector_23
+                0x00000000000004ce                __vector_25
+                0x00000000000004ce                __vector_11
+                0x00000000000004ce                __vector_13
+                0x00000000000004ce                __vector_17
+                0x00000000000004ce                __vector_7
+                0x00000000000004ce                __vector_5
+                0x00000000000004ce                __vector_4
+                0x00000000000004ce                __vector_9
+                0x00000000000004ce                __vector_2
+                0x00000000000004ce                __vector_21
+                0x00000000000004ce                __vector_15
+                0x00000000000004ce                __vector_8
+                0x00000000000004ce                __vector_14
+                0x00000000000004ce                __vector_10
+                0x00000000000004ce                __vector_16
+                0x00000000000004ce                __vector_20
+                0x00000000000004d2                . = ALIGN (0x2)
+ *(.text.*)
+ .text.VT_reset
+                0x00000000000004d2       0x30 vt.o
+                0x00000000000004d2                VT_reset
+ .text.VT_init  0x0000000000000502        0x4 vt.o
+                0x0000000000000502                VT_init
+ .text.get_color
+                0x0000000000000506       0x14 vt.o
+                0x0000000000000506                get_color
+ .text.set_tabstop
+                0x000000000000051a       0x10 vt.o
+                0x000000000000051a                set_tabstop
+ .text.clear_tabstop
+                0x000000000000052a        0xe vt.o
+                0x000000000000052a                clear_tabstop
+ .text.clear_all_tabstops
+                0x0000000000000538       0x10 vt.o
+                0x0000000000000538                clear_all_tabstops
+ .text.cursor_tabstop
+                0x0000000000000548       0x2c vt.o
+                0x0000000000000548                cursor_tabstop
+ .text.cursor_down
+                0x0000000000000574       0x10 vt.o
+                0x0000000000000574                cursor_down
+ .text.cursor_up
+                0x0000000000000584       0x10 vt.o
+                0x0000000000000584                cursor_up
+ .text.cursor_left
+                0x0000000000000594       0x10 vt.o
+                0x0000000000000594                cursor_left
+ .text.cursor_right
+                0x00000000000005a4       0x10 vt.o
+                0x00000000000005a4                cursor_right
+ .text.cursor_down_n
+                0x00000000000005b4       0x12 vt.o
+                0x00000000000005b4                cursor_down_n
+ .text.cursor_up_n
+                0x00000000000005c6       0x22 vt.o
+                0x00000000000005c6                cursor_up_n
+ .text.cursor_left_n
+                0x00000000000005e8       0x22 vt.o
+                0x00000000000005e8                cursor_left_n
+ .text.cursor_right_n
+                0x000000000000060a       0x12 vt.o
+                0x000000000000060a                cursor_right_n
+ .text.cursor_goto
+                0x000000000000061c       0x22 vt.o
+                0x000000000000061c                cursor_goto
+ .text.cursor_home
+                0x000000000000063e        0xa vt.o
+                0x000000000000063e                cursor_home
+ .text.carriage_return
+                0x0000000000000648        0x6 vt.o
+                0x0000000000000648                carriage_return
+ .text.linefeed
+                0x000000000000064e       0x10 vt.o
+                0x000000000000064e                linefeed
+ .text.drawchar
+                0x000000000000065e       0x7a vt.o
+                0x000000000000065e                drawchar
+ .text.rx_char  0x00000000000006d8       0x2e vt.o
+                0x00000000000006d8                rx_char
+ .text.reverse_linefeed
+                0x0000000000000706       0x10 vt.o
+                0x0000000000000706                reverse_linefeed
+ .text.erase_cursor_to_eol
+                0x0000000000000716       0x3a vt.o
+                0x0000000000000716                erase_cursor_to_eol
+ .text.erase_cursor_to_end
+                0x0000000000000750       0x42 vt.o
+                0x0000000000000750                erase_cursor_to_end
+ .text.erase_line
+                0x0000000000000792       0x2a vt.o
+                0x0000000000000792                erase_line
+ .text.erase_cursor_line
+                0x00000000000007bc        0x8 vt.o
+                0x00000000000007bc                erase_cursor_line
+ .text.erase_cursor_to_bol
+                0x00000000000007c4       0x36 vt.o
+                0x00000000000007c4                erase_cursor_to_bol
+ .text.erase_cursor_to_begin
+                0x00000000000007fa       0x3e vt.o
+                0x00000000000007fa                erase_cursor_to_begin
+ .text.erase_screen
+                0x0000000000000838        0xc vt.o
+                0x0000000000000838                erase_screen
+ .text.erase_characters
+                0x0000000000000844       0x50 vt.o
+                0x0000000000000844                erase_characters
+ .text.tx_dec   0x0000000000000894       0xb2 vt.o
+                0x0000000000000894                tx_dec
+ .text.tx_str   0x0000000000000946       0x1e vt.o
+                0x0000000000000946                tx_str
+ .text.VT52_reset
+                0x0000000000000964       0x1c vt52.o
+                0x0000000000000964                VT52_reset
+ .text.VT52_process
+                0x0000000000000980      0x140 vt52.o
+                0x0000000000000980                VT52_process
+ .text.VT220_clear_parameters
+                0x0000000000000ac0       0x1c vt220.o
+ .text.set_gx_mode
+                0x0000000000000adc       0x5e vt220.o
+ .text.tx_csi   0x0000000000000b3a       0x18 vt220.o
+ .text.VT220_reset
+                0x0000000000000b52       0x34 vt220.o
+                0x0000000000000b52                VT220_reset
+ .text.VT220_process
+                0x0000000000000b86      0x678 vt220.o
+                0x0000000000000b86                VT220_process
+ .text.drawchar_mini
+                0x00000000000011fe       0xc0 fnt4x6.o
+                0x00000000000011fe                drawchar_mini
+ .text.spiwrite_with_abandon
+                0x00000000000012be       0x1a ILI9340.o
+ .text.spiwrite
+                0x00000000000012d8       0x22 ILI9340.o
+ .text.ILI9340_writecommand
+                0x00000000000012fa        0xe ILI9340.o
+                0x00000000000012fa                ILI9340_writecommand
+ .text.ILI9340_writedata
+                0x0000000000001308        0xe ILI9340.o
+                0x0000000000001308                ILI9340_writedata
+ .text.ILI9340_commandList
+                0x0000000000001316       0x66 ILI9340.o
+                0x0000000000001316                ILI9340_commandList
+ .text.ILI9340_init
+                0x000000000000137c       0x7a ILI9340.o
+                0x000000000000137c                ILI9340_init
+ .text.ILI9340_setAddrWindow
+                0x00000000000013f6       0x82 ILI9340.o
+                0x00000000000013f6                ILI9340_setAddrWindow
+ .text.ILI9340_begin
+                0x0000000000001478       0x28 ILI9340.o
+                0x0000000000001478                ILI9340_begin
+ .text.ILI9340_end
+                0x00000000000014a0        0x4 ILI9340.o
+                0x00000000000014a0                ILI9340_end
+ .text.ILI9340_pixel
+                0x00000000000014a4       0x12 ILI9340.o
+                0x00000000000014a4                ILI9340_pixel
+ .text.ILI9340_fillRect
+                0x00000000000014b6       0x7a ILI9340.o
+                0x00000000000014b6                ILI9340_fillRect
+ .text.ILI9340_fillScreen
+                0x0000000000001530       0x28 ILI9340.o
+                0x0000000000001530                ILI9340_fillScreen
+ .text.ILI9340_setRotation
+                0x0000000000001558       0x5c ILI9340.o
+                0x0000000000001558                ILI9340_setRotation
+ .text.GX_init  0x00000000000015b4        0x4 gx.o
+                0x00000000000015b4                GX_init
+ .text.USART_init
+                0x00000000000015b8       0x42 usart.o
+                0x00000000000015b8                USART_init
+ .text.USART_readByte
+                0x00000000000015fa       0x2a usart.o
+                0x00000000000015fa                USART_readByte
+ .text.USART_send
+                0x0000000000001624       0x56 usart.o
+                0x0000000000001624                USART_send
+ .text.__vector_19
+                0x000000000000167a       0x56 usart.o
+                0x000000000000167a                __vector_19
+ .text.__vector_18
+                0x00000000000016d0       0x42 usart.o
+                0x00000000000016d0                __vector_18
+ .text.SPI_init
+                0x0000000000001712       0x10 spi.o
+                0x0000000000001712                SPI_init
+ .text.SPI_setBitOrder
+                0x0000000000001722       0x12 spi.o
+                0x0000000000001722                SPI_setBitOrder
+ .text.SPI_setDataMode
+                0x0000000000001734        0xa spi.o
+                0x0000000000001734                SPI_setDataMode
+ .text.SPI_setClockDivider
+                0x000000000000173e       0x1c spi.o
+                0x000000000000173e                SPI_setClockDivider
+ .text.tx_char  0x000000000000175a       0x1e main.o
+                0x000000000000175a                tx_char
+ .text.init_pins
+                0x0000000000001778       0x10 main.o
+                0x0000000000001778                init_pins
+ .text.sequence
+                0x0000000000001788       0x1e main.o
+                0x0000000000001788                sequence
+ .text.read_buttons
+                0x00000000000017a6       0x34 main.o
+                0x00000000000017a6                read_buttons
+ .text.startup.main
+                0x00000000000017da       0xd4 main.o
+                0x00000000000017da                main
+ .text.libgcc.div
+                0x00000000000018ae       0x28 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodhi4.o)
+                0x00000000000018ae                __udivmodhi4
+ .text.libgcc   0x00000000000018d6        0xc /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x00000000000018d6                __tablejump2__
+                0x00000000000018e2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000018e2        0x0 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x00000000000018e2                exit
+                0x00000000000018e2                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000018e2        0x4 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000018e6                _etext = .
+
+.data           0x0000000000800100        0xc load address 0x00000000000018e6
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.auto_wrap
+                0x0000000000800100        0x1 vt.o
+                0x0000000000800100                auto_wrap
+ .data.fgcolor  0x0000000000800101        0x2 vt.o
+                0x0000000000800101                fgcolor
+ .data.mode     0x0000000000800103        0x1 vt.o
+                0x0000000000800103                mode
+ .data.flags    0x0000000000800104        0x1 vt220.o
+ .data.auto_wrap_stored
+                0x0000000000800105        0x1 vt220.o
+ .data.gx_color_stored
+                0x0000000000800106        0x1 vt220.o
+ .data.gx_color
+                0x0000000000800107        0x1 vt220.o
+ .data.__height
+                0x0000000000800108        0x2 ILI9340.o
+ .data.__width  0x000000000080010a        0x2 ILI9340.o
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x000000000080010c                . = ALIGN (0x2)
+                0x000000000080010c                _edata = .
+                0x000000000080010c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080010c       0xf9
+                0x000000000080010c                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.tabstops  0x000000000080010c       0x50 vt.o
+ .bss.bgcolor   0x000000000080015c        0x2 vt.o
+                0x000000000080015c                bgcolor
+ .bss.cursorY   0x000000000080015e        0x1 vt.o
+                0x000000000080015e                cursorY
+ .bss.cursorX   0x000000000080015f        0x1 vt.o
+                0x000000000080015f                cursorX
+ .bss.py        0x0000000000800160        0x2 vt52.o
+ .bss.px        0x0000000000800162        0x2 vt52.o
+ .bss.state     0x0000000000800164        0x2 vt52.o
+ .bss.py        0x0000000000800166        0x1 vt220.o
+ .bss.px        0x0000000000800167        0x1 vt220.o
+ .bss.cursorY_stored
+                0x0000000000800168        0x1 vt220.o
+ .bss.cursorX_stored
+                0x0000000000800169        0x1 vt220.o
+ .bss.gx_flags_stored
+                0x000000000080016a        0x1 vt220.o
+ .bss.gx_flags  0x000000000080016b        0x1 vt220.o
+ .bss.parameter_id
+                0x000000000080016c        0x1 vt220.o
+ .bss.parameters
+                0x000000000080016d       0x10 vt220.o
+ .bss.state     0x000000000080017d        0x1 vt220.o
+ .bss.paused    0x000000000080017e        0x1 usart.o
+ .bss.rxbuffer  0x000000000080017f       0x40 usart.o
+ .bss.txbuffer  0x00000000008001bf       0x40 usart.o
+ .bss.rx_write  0x00000000008001ff        0x1 usart.o
+ .bss.rx_read   0x0000000000800200        0x1 usart.o
+ .bss.tx_write  0x0000000000800201        0x1 usart.o
+ .bss.tx_read   0x0000000000800202        0x1 usart.o
+ .bss.buttons   0x0000000000800203        0x1 main.o
+ .bss.buttons_old
+                0x0000000000800204        0x1 main.o
+ *(COMMON)
+                0x0000000000800205                PROVIDE (__bss_end, .)
+                0x00000000000018e6                __data_load_start = LOADADDR (.data)
+                0x00000000000018f2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800205        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800205                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 vt.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 vt52.o
+ .comment       0x0000000000000011       0x12 vt220.o
+ .comment       0x0000000000000011       0x12 fnt4x6.o
+ .comment       0x0000000000000011       0x12 ILI9340.o
+ .comment       0x0000000000000011       0x12 gx.o
+ .comment       0x0000000000000011       0x12 usart.o
+ .comment       0x0000000000000011       0x12 spi.o
+ .comment       0x0000000000000011       0x12 main.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /home/grammatikakis/Downloads/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(firmware.elf elf32-avr)
+LOAD linker stubs

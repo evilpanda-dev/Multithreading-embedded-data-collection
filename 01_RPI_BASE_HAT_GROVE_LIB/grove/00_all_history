@@ -1,0 +1,863 @@
+    1  su
+    2  sudo -i
+    3  su
+    4  ls
+    5  su
+    6  su
+    7  dmesg | grep -i mcp
+    8  cd CAN
+    9  su
+   10  dmesg
+   11  dmesg | grep -i spi
+   12  ls
+   13  cd /boot
+   14  vi config.txt 
+   15  sudo vi config.txt 
+   16  reboot
+   17  dmesg | grep -i spi
+   18  vi /boot/config.txt 
+   19  sudo vi /boot/config.txt 
+   20  reboot
+   21  dmesg | grep -i spi
+   22  ls
+   23  su
+   24  cd /usr/src/linux-rpi-4.19.y/arch/arm/boot/dts/
+   25  ls
+   26  ls -l mcp*
+   27  ls
+   28  ls  -l mcp*
+   29  ls
+   30  du -a | grep mcp
+   31  cd overlays/
+   32  diff mcp2515-can0-overlay.dts  mcp2515-can1-overlay.dts 
+   33  diff mcp2515-can0-overlay.dts  mcp2515-can1-overlay.dts  | more
+   34  cp /home/pi/CAN/DTS/mcp2515-can* .
+   35  sudo cp /home/pi/CAN/DTS/mcp2515-can* .
+   36  ls
+   37  diff -ybw mcp2515-can0-overlay.dts  mcp2515-can3-overlay.dts  | more
+   38  diff -ybw mcp2515-can0-overlay.dts  mcp2515-can2-overlay.dts  | more
+   39  diff -ybw mcp2515-can0-overlay.dts  mcp2515-can2-overlay.dts  | more | more
+   40  diff -ybw mcp2515-can0-overlay.dts  mcp2515-can3-overlay.dts  | more | more
+   41  diff -ybw mcp2515-can1-overlay.dts  mcp2515-can2-overlay.dts  | more | more
+   42  sudo vi /boot/config.txt 
+   43  du -a /usr/src/linux-rpi-4.19.y/ | grep spi1 | grep dts
+   44  du -a /usr/src/linux-rpi-4.19.y/arch/arm*/ | grep spi1 | grep dts
+   45  more /usr/src/linux-rpi-4.19.y/arch/arm/boot/dts/overlays/spi1-3cs-overlay.dts
+   46  pushd; cd /usr/src/linux-rpi-4.19.y/arch/arm/boot/dts/overlays/
+   47  ls spi*
+   48  vi spi*
+   49  more /boot/overlays/README 
+   50  fg
+   51  reboot
+   52  dmesg | grep -i spi
+   53  cd /usr/src/linux-rpi-4.19.y/arch/arm/boot/dts/
+   54  ls
+   55  cd overlays/
+   56  ls
+   57  vi mcp2515-can*
+   58  ls
+   59  ls -l spi*.dts
+   60  vi spi1* spi2*
+   61  ls
+   62  vi mcp2515-can2-overlay.dts mcp2515-can3-overlay.dts 
+   63  sudo vi mcp2515-can2-overlay.dts mcp2515-can3-overlay.dts 
+   64  ls
+   65  cd /boot
+   66  ls
+   67  cd ../..
+   68  ls
+   69  cd /usr/src
+   70  ks
+   71  cd linux-rpi-4.19.y/
+   72  more howto_linux_kernel_make.txt 
+   73  history | grep make
+   74  su
+   75  ls
+   76  cd CAN
+   77  ls
+   78  grep -ir "make -j4 zImage"
+   79  grep -ir "make -j4 zImage" | grep dtbs
+   80  su
+   81  dmesg | grep -i spi
+   82  shutdown 0
+   83  sudo -i
+   84  sudo -i
+   85  xmgrace
+   86  ls
+   87  cd 
+   88  ;s
+   89  csudo -i
+   90  dudo 
+   91  \sudo -i
+   92  sudo -i
+   93  ls
+   94  sudo -i
+   95  ls -l /home
+   96  chown -R pi:pi /root/*
+   97  sudo chown -R pi:pi /root/*
+   98  sudo -i
+   99  ls -l
+  100  cd GrovePi/
+  101  ls
+  102  cd Script/
+  103  sl
+  104  ls
+  105  ls -l
+  106  sudo -i
+  107  ls
+  108  ls -l
+  109  chmod 700 *.sh
+  110  ./update_grovepi.sh 
+  111  ls
+  112  ./install_scratch.sh 
+  113  sudo ./install_scratch.sh 
+  114  ls
+  115  sudo ./install.sh 
+  116  ls
+  117  cd ../Firmware/
+  118  ls
+  119  chmod 700 *.sh
+  120  sudo ./grovepi_firmware_update.sh 
+  121  ./grovepi_firmware_update.sh 
+  122  more new_fw_search.sh 
+  123  ./new_fw_search.sh 
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd Software/
+  128  ls
+  129  cd ..
+  130  du -a | grep py
+  131  du -a | grep py | grep ad
+  132  cd Software/Python/
+  133  python grove_analog_read.py 
+  134  ls
+  135  cd grove_i2c_adc/
+  136  ls
+  137  python i2c_adc_example.py 
+  138  ls
+  139  python grove_i2c_adc.py
+  140  python i2c_adc_example.py 
+  141  cd ..
+  142  ls
+  143  grep -ir a0
+  144  grep -ir a0 | grep read
+  145  ls
+  146  vi grove_analog_read.py 
+  147  python grove_analog_read.py 
+  148  raspi-config 
+  149  reboot
+  150  ls
+  151  cd RPI_BASE_HAT_GROVE_LIB/
+  152  ls
+  153  cd grove/
+  154  ls
+  155  python adc.py 
+  156  cd ../../GrovePi/
+  157  ls
+  158  cd Software/
+  159  ls
+  160  cd Python/
+  161  cd ../Cpp
+  162  ls
+  163  g++ grovepi_analog_read.cpp 
+  164  ls
+  165  more README.md 
+  166  sudo dpkg --install ./grovepicpp_0.1.1.deb
+  167  more README.md 
+  168  tar xvf grovepicpp_0.1.1.tar.gz 
+  169  cd grovepicpp_0.1.1/
+  170  ls
+  171  cd grovepicpp_0.1.1/
+  172  ls
+  173  cd ../..
+  174  ls
+  175  more README.md 
+  176  cd grovepicpp_0.1.1
+  177  more ../README.md 
+  178  ls
+  179  du -a
+  180  cd ..
+  181  ls
+  182  g++ -Wall grove_analog_read.cpp -I./grovepicpp_0.1.1/source/ -Lgrovepicpp_0.1.1/source/-lgrovepicpp 
+  183  g++ -Wall grovepi_analog_read.cpp -I./grovepicpp_0.1.1/source/ -Lgrovepicpp_0.1.1/source/-lgrovepicpp 
+  184  g++ -Wall grovepi_analog_read.cpp -I./grovepicpp_0.1.1/source/ -Lgrovepicpp_0.1.1/source/ -lgrovepicpp 
+  185  ./a.out 
+  186  g++ -Wall grovepi_analog_read.cpp -I./grovepicpp_0.1.1/source/ -Lgrovepicpp_0.1.1/source/ -lgrovepicpp 
+  187  ./a.out 
+  188  vi grovepi_analog_read.cpp 
+  189  g++ -Wall grovepi_analog_read.cpp -I./grovepicpp_0.1.1/source/ -Lgrovepicpp_0.1.1/source/ -lgrovepicpp 
+  190  ./a.out 
+  191  pushd .
+  192  cd ../../..
+  193  ls
+  194  cd RPI_BASE_HAT_GROVE_LIB/
+  195  ls
+  196  cd grove/
+  197  ls
+  198  du -a | grep adc
+  199  python adc.py 
+  200  shutdown 0
+  201  sudo -i
+  202  cd RPI_BASE_HAT_GROVE_LIB/sphinx/grove.py/
+  203  ls
+  204  cd grove/
+  205  ls
+  206  ls helper/
+  207  cd ..
+  208  ls
+  209  cd ..
+  210  du -a | grep howto
+  211  cv grove
+  212  ls
+  213  cd grove
+  214  ls
+  215  python3 grove_led.py  12
+  216  locate grove_led | grep blink
+  217  python3 /home/pi/GrovePi/Software/Python/grove_led_blink.py
+  218  python3 /home/pi/Dexter/GrovePi/Software/Python/grove_led_blink.py
+  219  ls
+  220  ls *buz*
+  221  python3 grove_pwm_buzzer.py 
+  222  vi grove_pwm_buzzer.py 
+  223  locate buzzer
+  224  locate grove_buzzer
+  225  vi /home/pi/GrovePi/Software/Python/grove_buzzer.py
+  226  grep analog *.py
+  227  ls
+  228  vi grove_light_sensor_v1_2.py 
+  229  python3 grove_light_sensor_v1_2.py 
+  230  python3 grove_light_sensor_v1_2.py 4
+  231  mv grove_light_sensor_v1_2.py 01_grove_light_sensor_v1_2_connected_to_A4.py 
+  232  python3 01_grove_light_sensor_v1_2_connected_to_A4.py 
+  233  python3 01_grove_light_sensor_v1_2_connected_to_A4.py 4
+  234  python3 01_grove_light_sensor_v1_2_conn_A4_run_w_arg_4.py 4
+  235  mv 01_grove_light_sensor_v1_2_connected_to_A4.py  01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py 
+  236  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py 
+  237  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py  4
+  238  ls *ran*
+  239  mv grove_ultrasonic_ranger.py  grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py
+  240  mv grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py  02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py 
+  241  python3 02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py  18
+  242  ls -l
+  243  mv grove_led.py 03_grove_led_conn_to_D16_run_w_16.py
+  244  ls
+  245  ls 0*
+  246  python 03_grove_led_conn_to_D16_run_w_16.py  16
+  247  python3 02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py 
+  248  python3 02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py 18
+  249  ls /boot
+  250  more /boot/config.txt
+  251  ls
+  252  ls -l
+  253  us
+  254  ls -l
+  255  clear
+  256  sudo shutdown 0
+  257  ls
+  258  cd GrovePi/
+  259  ls
+  260  cd ../
+  261  ls
+  262  cd RPI_BASE_HAT_GROVE_LIB/
+  263  ls
+  264  cd grove/
+  265  ls
+  266  more 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py 
+  267  dmesg  | grep S0
+  268  ls
+  269  vi 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py  02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py 03_grove_led_conn_to_D16_run_w_16.py 
+  270  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py 
+  271  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py  4
+  272  ls
+  273  vi grove_piezo_vibration_sensor.py 
+  274  grep -ir tx 
+  275  more  grove_pwm_buzzer.py 
+  276  grep -i uart *
+  277  grep -ir uart
+  278  more helper/helper.py 
+  279  grep -ir uart
+  280  mor modules/gps/example/gps_example.py 
+  281  more modules/gps/example/gps_example.py
+  282  ls
+  283  sudo -i
+  284  more howto_emg_seeed_sensor.txt 
+  285  cd ..
+  286  ls
+  287  cd ..
+  288  ls
+  289  su shutdown 0
+  290  sudo shutdown 0
+  291  minicom
+  292  ping 8.8.8.8
+  293  ifconfig
+  294  ifconfig
+  295  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py  4
+  296  ifconfig
+  297  ls
+  298  cd RPI_BASE_HAT_GROVE_LIB/
+  299  ls
+  300  cd grove/
+  301  ls
+  302  more grove_6_axis_accel_gyro_bmi088.py 
+  303  i2cdetect  -y 0
+  304  i2cdetect  -y 1
+  305  i2cdetect  -y 2
+  306  i2cdetect  -y 3
+  307  i2cdetect  -y 4
+  308  i2cdetect  -y 1
+  309  ls
+  310  grove grove_6_axis_accel_gyro_bmi088.py 
+  311  clear
+  312  python grove_6_axis_accel_gyro_bmi088.py 
+  313  ls
+  314  cd ..
+  315  ls
+  316  cd ..
+  317  ls
+  318  du -cs RPI_BASE_HAT_GROVE_LIB/*
+  319  ls RPI_BASE_HAT_GROVE_LIB/
+  320  ls RPI_BASE_HAT_GROVE_LIB/grove/
+  321  cd RPI_BASE_HAT_GROVE_LIB/grove/
+  322  ls
+  323  grep -ir A0 
+  324  more howto_emg_seeed_sensor.txt 
+  325  xmgrace -npipe fifo &
+  326  vi adc.py 
+  327  python adc.py > /tmp/1
+  328  python adc.py
+  329  more howto_emg_seeed_sensor.txt 
+  330  python adc.py > /tmp/1
+  331  ls
+  332  up emg
+  333  find emg
+  334  grove
+  335  ls
+  336  cd GrovePi
+  337  ls
+  338  emg
+  339  up emg
+  340  find emg
+  341  clc
+  342  clc all
+  343  clear all
+  344  clc
+  345  curl -sl https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s
+  346  curl -sl https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s-
+  347  apt-get update -y
+  348  apt-get upgrade -y
+  349  y
+  350  ls
+  351  xmgrace -npipe fifo
+  352  i2cdetect
+  353  clear
+  354  sudo i2cdetect -y 1
+  355  [A
+  356  sudo i2cdetect -y 1
+  357  sudo i2cdetect -y 
+  358  sudo i2cdetect -y 0
+  359  sudo i2cdetect -y 1
+  360  ~/grove.py/grove
+  361  python3 grove_piezo_vibration_sensor.py
+  362  ls
+  363  cd grove.py
+  364  ls
+  365  cd grove
+  366  python3 grove_piezo_vibration_sensor.py
+  367  python3 grove_piezo_vibration_sensor.py 12
+  368  xmgrace -npipe fifo
+  369  xmgrace -npipe fifo & python adc.py > /tmp/1
+  370  ls
+  371  cd grove.py
+  372  ls
+  373  cd grove
+  374  ls
+  375  cd adc.py
+  376  ls a*
+  377  python adc.py
+  378  history
+  379  exit
+  380  ls
+  381  more /tmp/1
+  382  jobs
+  383  history
+  384  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  385  more /tmp/1
+  386  vi /tmp/1
+  387  more /tmp/1
+  388  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  389  more /tmp/1
+  390  jobs
+  391  history
+  392  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  393  more /tmp/1
+  394  rm /tmp/1
+  395  more /tmp/1
+  396  cho "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  397  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  398  ec
+  399  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+  400  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ; cat /dev/null > /tmp/1; done
+  401  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ; cat /dev/null > /tmp/1; sleep 1; done
+  402  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ; sleep 1; done
+  403  pwd
+  404  cd grove.py/grove/
+  405  du -a .. | grep adc
+  406  ls adc.py 
+  407  python adc.py 
+  408  xmgrace -npipe show1 &
+  409  python adc.py > show1.dat &
+  410  while [ 1 ] ; do echo "read \"show.dat"" > show1; echo autoscale > show1 ; echo redraw > show1 ; done 
+  411  while [ 1 ] ; do echo read \"show.dat" > show1; echo autoscale > show1 ; echo redraw > show1 ; done 
+  412  ls -l show.dat
+  413  while [ 1 ] ; do echo read \"show1.dat" > show1; echo autoscale > show1 ; echo redraw > show1 ; done 
+  414  ls -l show1*
+  415  jobs
+  416  more show1.dat 
+  417  jobs
+  418  fg %2
+  419  jobs
+  420  python adc.py >> show1.dat
+  421  python adc.py >> show1.dat ; pkill -9 python
+  422  python adc.py >> show1.dat 
+  423  python adc.py >> show1.dat ; pkill -9 python
+  424  python adc.py >> show1.dat &  pkill -9 python
+  425  rm show1.dat 
+  426  python adc.py >> show1.dat &  pkill -9 python
+  427  rm show1.dat 
+  428  python adc.py >> show1.dat &  pkill -9 python
+  429  ps aux | grep adc
+  430  python adc.py 
+  431  python adc.py | read line; echo $line
+  432  python adc.py | while read line; do echo $line; done
+  433  python adc.py ; kill -9 python | while read line; do echo $line; done
+  434  ls
+  435  vi howto_xmgrace.txt
+  436  history
+  437  fg
+  438  wc
+  439  sync
+  440  more /tmp/1
+  441  fg
+  442  more /tmp/1
+  443  jobs
+  444  fg
+  445  xmgrace -npipe fifo &
+  446  mkfifo fifo
+  447  xmgrace -npipe fifo &
+  448  python adc.py > /tmp/1
+  449  history
+  450  jobs
+  451  xmgrace -npipe fifo &
+  452  more adc.py 
+  453  du -a .. | grep adc
+  454  vi howto_xmgrace.txt
+  455  vi adc.py 
+  456  python adc.py > /tmp/1
+  457  jobs
+  458  pkill -9 xmgrace
+  459  xmgrace -npipe fifo &
+  460  python adc.py > /tmp/1
+  461  fg
+  462  xmgrace -npipe fifo &
+  463  python adc.py >> /tmp/1
+  464  pkill -9 xmgrace
+  465  xmgrace -npipe fifo &
+  466  python adc.py >> /tmp/1
+  467  fg
+  468  pkill -9 xmgrace
+  469  xmgrace -npipe fifo &
+  470  python adc.py >> /tmp/1
+  471  history
+  472  more show1.dat 
+  473  python adc.py | echo -
+  474  python adc.py > show1.dat
+  475  python adc.py 
+  476  python adc.py | while [ read line ] ; do echo $line ; done
+  477  python adc.py | while read line ; do echo $line ; done
+  478  python adc.py | read line ; echo $line
+  479  python adc.py | read line
+  480  python adc.py
+  481  python adc.py | while read -r line;  do     echo "$line" ; done < input.file
+  482  while read -r line;  do     echo "$line" ; done < input.file
+  483  python adc.py | while read -r line;  do     echo "$line" ; done
+  484  python adc.py | while read -r line;  do    echo "test" ; echo "$line" ; done
+  485  python adc.py | while read line;  do    echo "test" ; echo "$line" ; done
+  486  xargs 10
+  487  xargs hello 10
+  488  man xargs
+  489  python adc.py 
+  490  while read line;  do    echo "test" > /tmp/1; done
+  491  for i in `ls -l` | while read line;  do    echo "test"; done
+  492  for i in `ls -l` | while read line;  do    echo $line; done
+  493  for i in `ls -l` do ;  echo $i; done
+  494  for i in `ls -l` do ; echo $i; done
+  495  for i in `ls -l` do echo $i; done
+  496  for i in `ls -l` ; do echo $i; done
+  497  for i in `python adc.py` ; do echo $i; done
+  498  python adc.py > 1
+  499  more 1
+  500  more show1.dat 
+  501  ls -l show1.dat 
+  502  more show1.dat 
+  503  rm show1.dat 
+  504  more show1.dat 
+  505  ps aux | grep python
+  506  pkill -9 python 
+  507  more show1.dat 
+  508  ~
+  509  l
+  510  ls -l show1.dat 
+  511  jobs
+  512  more show1.dat 
+  513  jobs
+  514  cd~
+  515  -sL https://github.com/Seeed-Studio/groove.py/raw/master/install.sh | sudo bash -s
+  516  curl -sL https://github.com/Seeed-Studio/groove.py/raw/master/install.sh | sudo bash -s
+  517  git clone  https://github.com/Seeed-Studio/groove.py
+  518  ls
+  519  cd grove.py
+  520  ls
+  521  cd grove
+  522  ls
+  523  python3 grove_piezo_vibration_sensor.py 12
+  524  python grove_piezo_vibration_sensor.py 12
+  525  python piezo.py 
+  526  i2c detect -y1
+  527  sudo detect - y 1
+  528  sudo detect - y1
+  529  history
+  530  sudo i2cdetect -y 1
+  531  clear
+  532  python piezo.py 
+  533  python grove_piezo_vibration_sensor.py 12
+  534  python grove_piezo_vibration_sensor.py 4
+  535  python grove_piezo_vibration_sensor.py 12
+  536  clear
+  537  sudo i2cdetect -y 1
+  538  python project.py
+  539  clear
+  540  sudo install grovepi
+  541  sudo apt update
+  542  sudo apt install code
+  543  mkfifo fifo
+  544  ls
+  545  cd RPI_BASE_HAT_GROVE_LIB
+  546  LS
+  547  ls
+  548  cd grove
+  549  ls
+  550  mkfifo fifo1
+  551  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  552  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; 
+  553  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  554  cd RPI_BASE_HAT_GROVE_LIB
+  555  cd grove
+  556  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  557  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  558  clear
+  559  pip3 install pyatyscomm
+  560  sudo install pyattyscomm
+  561  pip3 install pyatyscomm
+  562  pip3 install pyattyscomm
+  563  pip3 install pyqt5
+  564  pip3 install pyqtgraph
+  565  pip3 install pyxdf
+  566  pip3 install scipy
+  567  pip install pyxdf
+  568  cd RPI_BASE_HAT_GROVE_LIB
+  569  cd grove
+  570  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  571  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  572  open fifo
+  573  fifo
+  574  cd fifo
+  575  dir fifo
+  576  head fifo
+  577  xdg-open fifo
+  578  clear
+  579  touch metrics.txt
+  580  cat fifo
+  581  cat fifo.txt
+  582  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > metrics.txt; sleep 1;done
+  583  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  584  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  585  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  586  while [ 1 ] ; do echo "read\"/tmp/2\"" > metrics.txt; echo autoscale > metrics.txt ; echo redraw > metrics.txt; sleep 1;done
+  587  pwd
+  588  pip install numpy
+  589  pip install scipy
+  590  pip install signal
+  591  ls
+  592  cd Documents
+  593  git clone https://github.com/RasPiPkr/SnipPi.git
+  594  ls
+  595  cd SnipPi
+  596  ls
+  597  cd RPI_BASE_HAT_GROVE_LIB
+  598  cd grove
+  599  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  600  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  601  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  602  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  603  top
+  604  cd RPI_BASE_HAT_GROVE_LIB
+  605  cd grove
+  606  xmgrace -npipe fifo1 & python 123.py >> /tmp/1
+  607  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1;done
+  608  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1;done
+  609  top
+  610  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1;done
+  611  cd RPI_BASE_HAT_GROVE_LIB
+  612  cd grove
+  613  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  614  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  615  find tmp
+  616  history
+  617  cd RPI_BASE_HAT_GROVE_LIB
+  618  cd grove
+  619  more tmp/1
+  620  find tmp
+  621  more tmp
+  622  ls
+  623  cd RPI_BASE_HAT_GROVE_LIB
+  624  cd grove
+  625  xmgrace -npipe fifo & python 123.py 
+  626  cd RPI_BASE_HAT_GROVE_LIB
+  627  cd grove
+  628  xmgrace -npipe fifo & python 123.py 
+  629  while [ 1 ] ; do echo "read\"piezo.txt\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  630  cd RPI_BASE_HAT_GROVE_LIB
+  631  cd grove
+  632  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  633  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  634  xmgrace -npipe fifo & python 123.py >> /tmp/2
+  635  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  636  cd RPI_BASE_HAT_GROVE_LIB
+  637  cd grove
+  638  xmgrace -npipe fifo & python 123.py >> /tmp/1
+  639  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  640  xmgrace -npipe fifo & python 123.py >> /tmp/1
+  641  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  642  cd RPI_BASE_HAT_GROVE_LIB
+  643  cd grove
+  644  xmgrace -npipe fifo & python 123.py >> /tmp/1 & /tmp/2
+  645  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  646  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; do echo"read\"/tmp/1"">fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  647  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; do echo"read\"/tmp/1\"">fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  648  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  649  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  650  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  651  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  652  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  653  cd RPI_BASE_HAT_GROVE_LIB
+  654  cd grove
+  655  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  656  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  657  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  658  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1;done
+  659  mkfifo fifo1
+  660  xmgrace -npipe fifo fifo1 & python 123.py >> /tmp/1 && /tmp/2
+  661  fifo>> /tmp/1
+  662  xmgrace  & python 123.py >> /tmp/1 && /tmp/2
+  663  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  664  xmgrace -npipe fifo fifo1 & python 123.py >> /tmp/1 
+  665  xmgrace -npipe fifo & python 123.py >> /tmp/1 
+  666  xmgrace -npipe fifo1 & python 123.py >> /tmp/2 
+  667  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  668  xmgrace -npipe fifo  & python 123.py >> /tmp/1 
+  669  xmgrace -fixed 2427 4007  fifo  & python 123.py >> /tmp/2 
+  670  /tmp/2:some > tmp.grace && xmgrace tmp.grace
+  671  clear
+  672  cd RPI_BASE_HAT_GROVE_LIB
+  673  cd grove
+  674  xmgrace -npipe-nxy fifo & python 123.py >> /tmp/1 && /tmp/2
+  675  xmgrace -npipe-graph fifo & python 123.py >> /tmp/1 && /tmp/2
+  676  xmgrace -npipe-graph[2] fifo & python 123.py >> /tmp/1 && /tmp/2
+  677  xmgrace --graph[2] fifo & python 123.py >> /tmp/1 && /tmp/2
+  678  cd RPI_BASE_HAT_GROVE_LIB
+  679  cd grove
+  680  xmgrace -nxy emg.txt & python 123.py 
+  681  cd RPI_BASE_HAT_GROVE_LIB
+  682  cd grove
+  683  xmgrace -npipe fifo  & python 123.py >> /tmp/1 &
+  684  xmgrace -nxy fifo >> /tmp/2
+  685  xmgrace help
+  686  xmgrace -npipe -nxy- fifo >> /tmp/2
+  687  history
+  688  clear
+  689  more fifo
+  690  vs fifo
+  691  vdm fifo
+  692  view fifo
+  693  cd RPI_BASE_HAT_GROVE_LIB
+  694  cd grove
+  695  xmgrace emg piezo
+  696  while [ 1 ] ; do echo "read\"piezo.dat"" > fifo1; echo autoscale > fifo ; echo redraw > fifo1; sleep 1;done
+  697  xmgrace emg piezo
+  698  while [ 1 ] ; do echo "read\"piezo.dat"" > fifo1; echo autoscale > fifo ; echo redraw > fifo1; sleep 1;done
+  699  read block "piezo.dat"
+  700  READ BLOCK "piezo.dat"
+  701  xmgrace -nxy piezo.dat
+  702  xmgrace -block piezo -bxy 1
+  703  xmgrace -block piezo.dat -bxy 1
+  704  ls
+  705  cd project
+  706  xmgrace piezo.dat
+  707  xmgrace -block piezo.dat -bxy 1
+  708  ls-1
+  709  -1 cd
+  710  cd -1
+  711  cd RPI_BASE_HAT_GROVE_LIB
+  712  cd grove
+  713  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  714  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ;echo newline; echo redraw > fifo;done
+  715  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  716  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo1; echo autoscale > fifo1 ; echo redraw > fifo1; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  717  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo;done
+  718  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ;echo newline; echo redraw > fifo;done
+  719  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw newline > fifo;done
+  720  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw -1 > fifo;done
+  721  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw $line > fifo;done
+  722  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  723  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw $line > fifo;done
+  724  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  725  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1; echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw -n  $line > fifo;done
+  726  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;&
+  727  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1 &  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw  $line > fifo;done
+  728  clear
+  729  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1 &  echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw  $line > fifo;sleep 1;done
+  730  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  731  sudo install matplotlib
+  732  pip install matplotlib
+  733  pip3 install matplotlib
+  734  python --version
+  735  pip -V
+  736  sudo apt-get install python3-matplotlib
+  737  pip install mplot3d-dragger
+  738  sudo apt-get install python3-mplot3d_dragger
+  739  sudo apt-get install python3-mplot3d-dragger
+  740  sudo pip install -U matplotlib
+  741  cd RPI_BASE_HAT_GROVE_LIB
+  742  cd grove
+  743  ls
+  744  xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  745  while [ 1 ] ; do echo "read\"/tmp/3\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  746  xmgrace -nxy fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  747  xmgrace -bxy fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  748  cd RPI_BASE_HAT_GROVE_LIB
+  749  cd grove
+  750  xmgrace -npipe fifo & python 123.py >>  /tmp/2
+  751  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  752  cd RPI_BASE_HAT_GROVE_LIB
+  753  xmgrace -npipe fifo & python 123.py >>  /tmp/1
+  754  cd grove
+  755  xmgrace -npipe fifo & python 123.py >>  /tmp/1
+  756  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  757  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  758  while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  759  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  760  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  761  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  762  cd RPI_BASE_HAT_GROVE_LIB
+  763  cd grove
+  764  cd RPI_BASE_HAT_GROVE_LIB
+  765  cd grove
+  766  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  767  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  768  xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  769  xmgrace -npipe fifo2 & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  770  while [ 1 ] ; do echo "read\"/tmp/3\"" > fifo2; echo autoscale > fifo2 ; echo redraw > fifo2; sleep 1;done
+  771  cd RPI_BASE_HAT_GROVE_LIB
+  772  cd grove
+  773  xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+  774  while [ 1 ] ; do echo "read\"/tmp/3\"" > fifo2; echo autoscale > fifo2 ; echo redraw > fifo2; sleep 1;done
+  775  xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+  776  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  777  ls
+  778  cd GrovePi/Projects/
+  779  ls
+  780  LS
+  781  ls
+  782  cd ..
+  783  ls
+  784  cd Software/
+  785  ls
+  786  cd Cpp
+  787  ls
+  788  ls -l
+  789  cd ../..
+  790  ls
+  791  cd ..
+  792  ls -lRt
+  793  ls -lRtv
+  794  cd 
+  795  ls -lR
+  796  ls -lR | sort -n -k 5
+  797  updatedb
+  798  sudo updatedb
+  799  locate gps_example.py
+  800  pwd
+  801  ls
+  802  cd ls -l /home/pi/RPI_BASE_HAT_GROVE_LIB/grove/modules/gps/example/gps_example.py /home/pi/RPI_BASE_HAT_GROVE_LIB/sphinx/grove.py/grove/modules/gps/example/gps_example.py /home/pi/grove.py/grove/modules/gps/example/gps_example.py
+  803  more  /home/pi/RPI_BASE_HAT_GROVE_LIB/grove/modules/gps/example/gps_example.py
+  804  ls
+  805  xmgrace  /home/pi/RPI_BASE_HAT_GROVE_LIB/grove/modules/gps/example/gps_example.py
+  806  ls
+  807  diff /home/pi/RPI_BASE_HAT_GROVE_LIB/sphinx/grove.py/grove/modules/gps/example/gps_example.py  /home/pi/grove.py/grove/modules/gps/example/gps_example.py
+  808  grep -ir xmgrace
+  809  locate 123.py
+  810  cd RPI_BASE_HAT_GROVE_LIB/grove/
+  811  ls
+  812  vi 01_howto_run.txt 
+  813  ls
+  814  more 01_howto_run.txt 
+  815  python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py
+  816  more 01_howto_run.txt 
+  817  ls
+  818  more 123.py 
+  819  ;s
+  820  ls
+  821  xmgrace 123.py 
+  822  more 123.py 
+  823  ls
+  824  vi 123.py 
+  825  more 123.py 
+  826  more 01_howto_run.txt 
+  827  xmgrace -npipe fifo & python adc.py > /tmp/1
+  828  fg
+  829  ls
+  830  ls -l fi*
+  831  more for\ me 
+  832  ls -l fi*
+  833  more fifo2
+  834  rm fifo fifo1 fifo2
+  835  ls
+  836* 
+  837  fg
+  838  more howto_emg_seeed_sensor.txt 
+  839  mkfifo fifo
+  840  python adc.py >> /tmp/1
+  841  vg %2
+  842* 
+  843* hist
+  844  while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+  845  echo /dev/null > /tmp/2
+  846  echo /dev/null > /tmp/2;  while [ 1 ] ; do tail -f /tmp/2 ; done
+  847  jobs
+  848  kill -9 %2
+  849  jobs
+  850  echo /dev/null > /tmp/2;  python adc.py >> /tmp/1 & while [ 1 ] ; do tail -f /tmp/2 ; done
+  851  rm /tmp/2
+  852  python adc.py 
+  853  vi adc.py 
+  854  ls
+  855  more 01_howto_run.txt 
+  856  ps aux | grep xmg
+  857  sudo ps aux | grep xmg
+  858  xkill
+  859  ls
+  860  more 01_howto_run.txt 
+  861  python 123.py 
+  862  history
+  863  history > 00_all_history

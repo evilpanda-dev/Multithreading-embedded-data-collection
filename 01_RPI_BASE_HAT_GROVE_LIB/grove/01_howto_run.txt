@@ -1,0 +1,72 @@
+python3 01_grove_light_sensor_v1_2_conn_A4__run_w_arg_4.py
+
+python3 02_grove_ultrasonic_ranger_conn_D16_D18_run_w_arg_18.py
+
+python3 03_grove_led_conn_to_D16_run_w_16.py
+
+python3 adc*.py (emg)
+
+
+XMGRACE
+xmgrace
+xmgrace -npipe fifo &
+xmgrace -npipe fifo & python adc.py > /tmp/1
+xmgrace -npipe show1 &
+pkill -9 xmgrace
+xmgrace -npipe fifo & python 123.py >> /tmp/2
+xmgrace -npipe fifo1 & python 123.py >> /tmp/1
+xmgrace -npipe fifo & python 123.py >> /tmp/2
+xmgrace -npipe fifo & python 123.py 
+xmgrace -npipe fifo & python 123.py 
+xmgrace -npipe fifo & python 123.py >> /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1
+xmgrace -npipe fifo & python 123.py >> /tmp/1
+xmgrace -npipe fifo & python 123.py >> /tmp/1 & /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo fifo1 & python 123.py >> /tmp/1 && /tmp/2
+xmgrace  & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo fifo1 & python 123.py >> /tmp/1 
+xmgrace -npipe fifo & python 123.py >> /tmp/1 
+xmgrace -npipe fifo1 & python 123.py >> /tmp/2 
+xmgrace -npipe fifo  & python 123.py >> /tmp/1 
+xmgrace -fixed 2427 4007  fifo  & python 123.py >> /tmp/2 
+/tmp/2:some > tmp.grace && xmgrace tmp.grace
+xmgrace -npipe-nxy fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe-graph fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe-graph[2] fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace --graph[2] fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -nxy emg.txt & python 123.py 
+xmgrace -npipe fifo  & python 123.py >> /tmp/1 &
+xmgrace -nxy fifo >> /tmp/2
+xmgrace help
+xmgrace -npipe -nxy- fifo >> /tmp/2
+xmgrace emg piezo
+xmgrace emg piezo
+xmgrace -nxy piezo.dat
+xmgrace -block piezo -bxy 1
+xmgrace -block piezo.dat -bxy 1
+xmgrace piezo.dat
+xmgrace -block piezo.dat -bxy 1
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -nxy fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -bxy fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -npipe fifo & python 123.py >>  /tmp/2
+xmgrace -npipe fifo & python 123.py >>  /tmp/1
+xmgrace -npipe fifo & python 123.py >>  /tmp/1
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -npipe fifo2 & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -npipe fifo & python grove_6_axis_accel_gyro_bmi088.py >> /tmp/3 
+xmgrace -npipe fifo & python 123.py >> /tmp/1 && /tmp/2
+xmgrace -npipe fifo &
+xmgrace -npipe fifo & python 123.py >> /tmp/2

@@ -1,0 +1,12 @@
+# Open the data file
+READ BLOCK "data.txt"
+BLOCK xy "1:2"
+# Load the data into a set
+READ BLOCK xy "s0"
+# Redraw the graph
+REDRAW
+# Wait before reloading the data
+PAUSE 1
+# Loop back to the beginning
+GOTO 0
+

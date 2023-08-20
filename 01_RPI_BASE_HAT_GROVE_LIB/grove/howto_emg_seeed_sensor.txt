@@ -1,0 +1,29 @@
+/home/pi/grove.py/grove
+
+connect sensor to A0
+
+0) mkfifo fifo
+
+1) xmgrace -npipe fifo &
+
+2) python adc.py >> /tmp/1
+
+3) move biceps and measure
+
+   while [ 1 ] ; do echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; 
+					echo redraw > fifo ; sleep 1; done
+
+
+
+   echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+   ... biceps etc
+   echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+   ... biceps etc
+   echo "read\"/tmp/1\"" > fifo; echo autoscale > fifo ; echo redraw > fifo ;
+
+
+for piezo after the dir
+10) xmgrace -npipe fifo & python 123.py >> /tmp/2
+
+11)while [ 1 ] ; do echo "read\"/tmp/2\"" > fifo; echo autoscale > fifo ; echo redraw > fifo; sleep 1;done
+

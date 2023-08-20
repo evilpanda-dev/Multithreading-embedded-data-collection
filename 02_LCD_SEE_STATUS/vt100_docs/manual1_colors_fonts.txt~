@@ -1,0 +1,224 @@
+Manuals from various pages:
+
+http://odroid.com/dokuwiki/doku.php?id=en:odroidshow
+http://odroid.com/dokuwiki/doku.php?id=en:show_using
+
+
+
+How to use commanad line on linux
+To send string and information to ODROID-SHOW, you need to know the ANSI /VT100 Escape Commands.
+Here is a list of supported command. 
+Setting up serial port
+# stty -F /dev/ttyUSBn 500000
+Normally the ttyUSBn should be ttyUSB0 ! 
+ANSI Escape Commands
+Terminal codes are needed to give specific commands to your ODROID-SHOW. This can be related to switching colors or positioning the cursor. 
+Name
+decimal
+octal
+hex
+
+Description
+ESC
+27
+033
+0x1B
+
+Escape character
+CR
+13
+015
+0x0D
+
+Carriage return
+LF
+10
+012
+0x0A
+
+Linefeed (newline)
+Foreground coloring
+# echo -ne "\e[31mRed show" > /dev/ttyUSBn
+ANSI
+Description
+Esc [ 3 0 m
+Set foreground to color #0 - black
+Esc [ 3 1 m
+Set foreground to color #1 - red
+Esc [ 3 2 m
+Set foreground to color #2 - green
+Esc [ 3 3 m
+Set foreground to color #3 - yellow
+Esc [ 3 4 m
+Set foreground to color #4 - blue
+Esc [ 3 5 m
+Set foreground to color #5 - magenta
+Esc [ 3 6 m
+Set foreground to color #6 - cyan
+Esc [ 3 7 m
+Set foreground to color #7 - white
+Esc [ 3 9 m
+Set default color as foreground color - black
+Background coloring
+ANSI
+Description
+Esc [ 4 0 m
+Set backround to color #0 - black
+Esc [ 4 1 m
+Set background to color #1 - red
+Esc [ 4 2 m
+Set background to color #2 - green
+Esc [ 4 3 m
+Set background to color #3 - yellow
+Esc [ 4 4 m
+Set background to color #4 - blue
+Esc [ 4 5 m
+Set background to color #5 - magenta
+Esc [ 4 6 m
+Set background to color #6 - cyan
+Esc [ 4 7 m
+Set background to color #7 - white
+Esc [ 4 9 m
+Set default color as background color - black
+VT100 Escape Commands
+# echo -ne "\ecClear!" > /dev/ttyUSBn
+(Pn = Numeric Parameter) 
+VT100
+Description
+Linefeed(\n)
+Cursor down
+Esc D
+Cursor Down
+Esc E
+Cursor Down to row 1
+Esc M
+Cursor Up
+Esc c
+Resets LCD
+Esc [ Pn A
+Keyboard UP Arrow
+Esc [ Pn B
+Keyboard Down Arrow
+Esc [ Pn C
+Keyboard Right Arrow
+Esc [ Pn D
+Keyboard Left Arrow
+Esc [ Pn ; Pn H
+Cursor Position
+Esc [ H
+Cursor to Home
+Esc [ 2 J
+Erase entire screen
+Esc [ 6 n
+Reports cursor position(serial port)
+
+Extended VT100 Escape Commands
+Extended VT100
+Description
+Esc [ s
+Save cursor pos
+Esc [ u
+Restore cursor pos
+Esc [ s
+Set text size (width = textsize*6, height = textsize*8)
+Esc [ r
+Set rotation 0 to 3(move to 90° in a clockwise)
+Esc [ Pn q
+PWM LED backlight( 0 ~ 255 )
+Esc [ Pn;Pn , Pn;Pn i
+Set image drowing status
+Esc [ Pn;Pn x
+Draw dot at the position to current color
+
+
+
+Image display
+You can display a graphic image on the ODROID-SHOW.
+It supports only raw RGB-565 format. 
+We used ffmpeg to convert a normal PNG file to raw RGB file. Note that you must resize the PNG file first. 
+sudo apt-get install ffmpeg
+You can convert it with this command. If the conversion is success, you will have the penguin.raw file. 
+ffmpeg -vcodec png -i penguin.png -vcodec rawvideo -f rawvideo -pix_fmt rgb565 penguin.raw
+You can set the image load mode with the pixel coordination parameters. 
+
+
+
+---------------------
+
+How to use commanad line on linux
+
+To send string and information to ODROID-SHOW, you need to know the ANSI /VT100 escape commands.
+Here is a list of supported command.
+
+This guide is tested on Ubuntu 16.04(ARM and x86)
+Setting up serial port
+
+both
+
+    $ sudo stty -F /dev/ttyUSBn 500000
+
+Normally the ttyUSBn should be ttyUSB0 !
+ANSI Escape Commands
+
+Terminal codes are needed to give specific commands to your ODROID-SHOW. This can be related to switching colors or positioning the cursor.
+Name	decimal	octal	hex	Description
+ESC	27	033	0x1B	Escape character
+CR	13	015	0x0D	Carriage return
+LF	10	012	0x0A	Linefeed (newline)
+Foreground coloring
+
+both
+
+    $ sudo echo -ne "\e[31mRed show" > /dev/ttyUSBn
+
+ANSI	Description
+Esc [ 3 0 m	Set foreground to color #0 - black
+Esc [ 3 1 m	Set foreground to color #1 - red
+Esc [ 3 2 m	Set foreground to color #2 - green
+Esc [ 3 3 m	Set foreground to color #3 - yellow
+Esc [ 3 4 m	Set foreground to color #4 - blue
+Esc [ 3 5 m	Set foreground to color #5 - magenta
+Esc [ 3 6 m	Set foreground to color #6 - cyan
+Esc [ 3 7 m	Set foreground to color #7 - white
+Esc [ 3 9 m	Set default color as foreground color - black
+Background coloring
+ANSI	Description
+Esc [ 4 0 m	Set backround to color #0 - black
+Esc [ 4 1 m	Set background to color #1 - red
+Esc [ 4 2 m	Set background to color #2 - green
+Esc [ 4 3 m	Set background to color #3 - yellow
+Esc [ 4 4 m	Set background to color #4 - blue
+Esc [ 4 5 m	Set background to color #5 - magenta
+Esc [ 4 6 m	Set background to color #6 - cyan
+Esc [ 4 7 m	Set background to color #7 - white
+Esc [ 4 9 m	Set default color as background color - black
+VT100 Escape Commands
+
+both
+
+    $ sudo echo -ne "\ecClear!" > /dev/ttyUSBn
+
+(Pn = Numeric Parameter)
+VT100	Description
+Linefeed(\n)	Cursor down
+Esc D	Cursor Down
+Esc E	Cursor Down to row 1
+Esc M	Cursor Up
+Esc c	Resets LCD
+Esc [ Pn A	Keyboard UP Arrow
+Esc [ Pn B	Keyboard Down Arrow
+Esc [ Pn C	Keyboard Right Arrow
+Esc [ Pn D	Keyboard Left Arrow
+Esc [ Pn ; Pn H	Cursor Position
+Esc [ H	Cursor to Home
+Esc [ 2 J	Erase entire screen
+Esc [ 6 n	Reports cursor position(serial port)
+Extended VT100 Escape Commands
+Extended VT100	Description
+Esc [ s	Save cursor pos
+Esc [ u	Restore cursor pos
+Esc [ s	Set text size (width = textsize*6, height = textsize*8)
+Esc [ r	Set rotation 0 to 3(move to 90° in a clockwise)
+Esc [ Pn q	PWM LED backlight( 0 ~ 255 )
+Esc [ Pn;Pn , Pn;Pn i	Set image drowing status
+Esc [ Pn;Pn x	Draw dot at the position to current color
